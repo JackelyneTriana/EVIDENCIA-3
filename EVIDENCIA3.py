@@ -1,5 +1,6 @@
 separador = ("*" * 40)
 
+import sys
 import sqlite3
 from sqlite3 import Error
 with sqlite3.connect("CURSO.db") as conn:
